@@ -104,6 +104,9 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
+              <div class="col-12">
+                <button type="button" class="addneworder mb-4 mt-4 btn btn-primary btn-lg btn-block " id="addOrder">Add A New Order</button>
+              </div>
               <div class="card">
                 <div class="card-header card-header-primary">
                   <h4 class="card-title ">Orders Table</h4>
@@ -256,6 +259,41 @@
           </div>
         </div>
       </div>
+
+      
+<!-- popup -->
+<div id="popupBox" class ="popupfather">  
+  <div class ="popup">
+   
+  <div class="container">
+
+<span id="closepop" class="closepopup">Close</span>
+<form action="connect.php" method="post">
+  <div class="row">
+
+ <div class="col-md-12 ">
+  <input id="name" class="input" placeholder="customer name">
+  <input id="address" class="input" placeholder="address">
+  <input id="mobile" class="input " placeholder="mobile no">
+  <input id="email" class="input " placeholder="email">
+  <input id="code" class="input" placeholder="kebly code">
+  <input id="quantity" class="input " placeholder="quantity">
+  <input id="salesprice" class="input" placeholder="sales price">
+  <input id="Notes" class="input" placeholder="Notes">
+
+</div>
+
+</div>
+<button id="acceptorder" type="submit" class="accpetOrder btn btn-outline-warning">Accept Order</button>
+
+</form>
+
+</div>
+  </div>
+  
+</div>
+<!-- EDIT popup -->
+
       <footer class="footer">
         <div class="container-fluid">
           <nav class="float-left">
